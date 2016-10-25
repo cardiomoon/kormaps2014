@@ -1,0 +1,19 @@
+Package: kormaps2014
+Type: Package
+Title: Shape Datas of Korean Administrative Area(2014) With Korean population census data(2015)
+Version: 0.1.0
+Depends: R (>= 3.1.0)
+Authors@R: person("Keon-Woong", "Moon", email = "cardiomoon@gmail.com",
+  role = c("aut", "cre"))
+Maintainer: Keon-Woong Moon<cardiomoon@gmail.com>
+Description: A Shape data Of Korean Administrative Area(2014) of three levels
+    and Korean population census data(2015)
+URL: https:://github.com/cardiomoon/kormaps2014
+BugReports: https:://github.com/cardiomoon/kormaps2014/issues
+Suggests:
+    testthat,
+License: GPL-3
+LazyData: TRUE
+Encoding: UTF-8
+RoxygenNote: 5.0.1
+

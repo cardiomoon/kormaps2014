@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: kormaps2014\nType: Package\nTitle: Shape Datas of Korean Administrative Area(2014) With Korean population census data(2015)\nVersion: 0.1.0\nDepends: R (>= 3.1.0)\nAuthors@R: person(\"Keon-Woong\", \"Moon\", email = \"cardiomoon@gmail.com\",\n  role = c(\"aut\", \"cre\"))\nMaintainer: Keon-Woong Moon<cardiomoon@gmail.com>\nDescription: A Shape data Of Korean Administrative Area(2014) of three levels\n    and Korean population census data(2015)\nURL: https:://github.com/cardiomoon/kormaps2014\nBugReports: https:://github.com/cardiomoon/kormaps2014/issues\nSuggests:\n    testthat,\nLicense: GPL-3\nLazyData: TRUE\nEncoding: UTF-8\nRoxygenNote: 5.0.1\n\n",
+    "created" : 1477356746448.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2038155066",
+    "id" : "6D364410",
+    "lastKnownWriteTime" : 1477357094,
+    "last_content_update" : 1477357094718,
+    "path" : "~/ownCloud/Documents/kormaps2014/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
