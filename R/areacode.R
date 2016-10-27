@@ -11,6 +11,20 @@
 "areacode"
 
 
+#'New patients with tubeculsosis in South Korea
+#'
+#'A dataset
+#'
+#'  @format A long-form data.frame with 255 rows and 5 columns
+#'  \describe{
+#'     \item{name1}{abbreviation of area}
+#'     \item{code}{Korean administative area code}
+#'     \item{name}{Korean administative area, level 1}
+#'     \item{year}{year}
+#'     \item{NewPts}{Number of new patients}
+#'}
+"tbc"
+
 
 #'Korean administative map data(2014) level 1
 #'
