@@ -1,0 +1,62 @@
+---
+title: "한국행정지도(2014) 패키지 kormaps2014 안내"
+author: "Keon-Woong Moon"
+date: "October 27, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```
+웹R의 운영자 문건웅입니다. 2014년 한국행정지도를 이용하여 단계구분도를 쉽게 만들 수 있게 해 주는 kormaps2014 패키지를 소개합니다. Shape데이타를 데이타프레임으로 미리 변환하였으므로 ggplot2등을 이용하여 쉽게 단계구분도를 그릴 수 있습니다.
+제가 만든 다른 피키지 moonBook2에 있는  ggChoropleth()함수를 이용하면 보다 쉽게 단계구분도를 그릴 수 있습니다. static image뿐만 아니라 tooltip 사용  및 축소 확대 가능한 interactive plot도 쉽게 그릴 수 있습니다.
+```
+
+## 패키지 설치
+
+kormaps패키지는 github에 있습니다. CRAN에 올릴 수는 있으나 한글을 모두 unicode로 변환해야 해서 사용하기 번거로와 github에 올렸습니다. github에 있는 패키지를 설치하려면 devtools 패키지에 있는 install_github()함수를 사용합니다. 
+
+```{r,eval=FALSE}
+install.packages("devtools")
+devtools::install_github("cardiomoon/kormaps2014")
+```
+
+moonBook2패키지를 설치하시려면 다음과 같이 합니다. 처음 설치하는 경우 많은 패키지를 설치하므로 시간이 조금 걸립니다.
+
+```{r,eval=FALSE}
+devtools::install_github("cardiomoon/moonBook2")
+```
+
+
+## 패키지의 내용
+
+
+패키지를 사용하려면 다음과 같이 패키지를 불러옵니다.
+
+```{r}
+library(kormaps2014)
+library(moonBook2)
+```
+
+kormaps 패키지에는 areacode, kormap1, kormap2, kormap3, korpop1, korpop2, korpop3, tbc데이타가 포함되어 있습니다.
+
+### 데이타 areacode
+
+```{r,comment=NA}
+areacode
+```
+
+###  한국행정지도 데이타
+
+1. kormap1 : 2014년 한국행정지도(시도별)
+2. kormap2 : 2014년 한국행정지도(시군구별)
+3. kormap3 : 2014년 한국행정지도(읍면동별)
+
+```{r,comment=NA}
+str(kormap1)
+str(kormap2)
+str(kormap3)
+```

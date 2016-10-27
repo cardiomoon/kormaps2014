@@ -217,6 +217,13 @@ changeCode=function(popdata,from="UTF-8",to="CP949",change.colnames=TRUE,cols=NU
 # str(korpop2015_2)
 # str(korpop2015_3)
 #
+
+
+# kormap1=readRDS("kormap1.RDS")
+# kormap2=readRDS("kormap2.RDS")
+# kormap3=readRDS("kormap3.RDS")
+#
+#
 # devtools::use_data(areacode,overwrite=TRUE)
 # devtools::use_data(kormap1,overwrite=TRUE)
 # devtools::use_data(kormap2,overwrite=TRUE)
